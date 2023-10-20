@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+
+<title>Data Manipulation</title>
+</head>
+<body>
+    <center>
+        <form action="insert.php" method="post">
+            <h1>Storing Data Into Database</h1>
+            <label for="firstname">Firstname:</label>
+            <input type="text" 
+            name="first_name" 
+            id="first_name" required><br>
+            <label for="lastname">Lastname:</label>
+            <input type="text"
+            name="last_name"
+            id="last_name"
+            required><br>
+            <label for="gender">Gender</label>
+            <input type="radio"
+            name="gender" id="gender"/>Male
+            <input type="radio"
+            name="gender"
+            id="gender"/>Female
+            <br>
+            <label for="address">Address</label>
+            <input type="text"
+            name="address"
+            id="address" required/>
+            <p>
+                <button type="submit">SUBMIT</button>
+                <button type="reset">CANCEL</button>
+            </p>
+    </form>
+    </center>
+</body>
